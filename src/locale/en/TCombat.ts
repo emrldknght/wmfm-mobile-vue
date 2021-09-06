@@ -1,0 +1,36 @@
+export const TCombat = {
+    combatList: 'Ваши бои',
+    finished: 'Закончен',
+    type: 'Тип',
+
+    friendlyFights: 'Дружеские бои',
+    createApplication: 'Подать заявку',
+    fold: 'Свернуть',
+    teamEff: 'Средняя эффективность команды',
+    clearTeam: 'Очистить команду',
+    //combat
+    combatType: 'Тип боя',
+    duel: 'Дуэль',
+    profight: 'Профайт',
+    buhurt:'Бугурт',
+    nomination: 'Номинация',
+    sword: 'Меч',
+    swordAndShield: 'Щит-Меч',
+    bastard: 'Бастард',
+    polyarm: 'Алебарда',
+    fist: 'Кулаки',
+    numberOfFighters: 'Кол-во бойцов',
+    timeToStart: 'До начала',
+    minutes: 'мин.',
+    bet: 'Ставка',
+    comment: 'Комментарий',
+    startCombat: 'В бой!',
+    tapToAddFighters: 'Нажмите сюда для добавления бойцов из списка',
+    addFightersWithTheListOnTheLeft: `Выберите бойцов кнопкой "+" из списка слева`,
+
+    ffRequestEmptyTeam: `Ну что такое?\nБой с отсутствующими бойцами - не интересно. Назначьте хотя бы одного!`,
+    combatRequestSend: `Заявка на бой отправлена!`,
+    warnTeamUnderLimit: `В команде недостаточно бойцов. Вы хотите отправить заявку на бой?`,
+    warnTeamOverLimit: `Превышено количество бойцов. Вы хотите отправить заявку на бой?`,
+
+};

@@ -1,0 +1,1 @@
+export type CatFilter = 'all' | 's_sh' | 'm_sh' | 'b_' | 'p_';

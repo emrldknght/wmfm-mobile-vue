@@ -1,0 +1,68 @@
+:root {
+  --main-bg-color: rgba(50, 50, 50, .8);/* rgba(47,79,79, .9); */ /*darkslategray; */
+  --dim-color: rgba(0,0,0, .2);
+
+  --secondary-bg-color:#1c3838;
+  --flag-m-l: 2px;
+
+  /* for color-scheme */
+  --app-screen-header-color: rgba(25, 25, 25, 1);
+  --dialog-header-bg-color: var(--dim-color);
+  --dialog-message-bg-color: darkslategray;
+  --top-button-active-bg-color: #1c3838;
+  --top-button-active-arrrow-bg-color: white;
+
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  /*height: 100%;*/
+  background-color: darkslategray;
+  font-family: "Courier 10 Pitch";
+}
+a {
+  color:white;
+}
+
+button {
+  padding: 4px;
+  margin: 1px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+button:hover {
+  background-color: var(--dim-color);
+}
+.screen-wrapper:not(:empty) {
+  border: 1px solid black;
+  border-left-width: 0;
+
+  background-color: var(--main-bg-color);
+  color: white;
+}
+summary {
+  width:100%;
+  background-color:aqua;
+  cursor:pointer;
+  color:black;
+}
+
+.expand {
+  cursor:pointer;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+}
+.expand-header {
+  background-color:var(--dim-color);
+  padding:1vw;
+}
+.expand-body {
+  display:flex;
+  flex-direction:column;
+  align-self:center;
+}
+
